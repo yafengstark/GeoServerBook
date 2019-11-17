@@ -14,3 +14,17 @@ mvn install
 
 
 
+## 官网命令行构建
+
+```
+mvn install -DskipTests -T 2C
+```
+
+```
+mvn jetty:run
+```
+
+亲测可行
+
+
+
